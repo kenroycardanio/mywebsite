@@ -9,6 +9,7 @@ The live site is static. Under `.vercelignore`, only these public files should r
 - `index.html`
 - `styles.css`
 - `site.js`
+- `ken-photo.png`
 - `sample-id-sheet.svg`
 
 `vercel.json` stays in the project (`cleanUrls: true`). Docs, content, personas, prompts, scripts, `START_HERE.md`, `.cursor`, `node_modules`, package files, and screenshots do not ship.

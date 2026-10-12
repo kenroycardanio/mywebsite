@@ -4,31 +4,54 @@ Wording on the current page. Not the strategy file.
 
 Header clock: Manila time, then Calamba.
 
+Availability: Open to full-time roles.
+
 ## Title
 
-Ken Roy Cardanio
-
-Turn efficiency into something real.
+Ken Roy Cardanio · Turn efficiency into something real
 
 ## Header
 
 Ken Roy Cardanio
-Capabilities · Approach · Background · Opportunities
+Work with me · Capabilities · Systems · Proof · Terminal
+Hire me
 
 ## Introduction
 
-Ken Roy Cardanio
+Open to full-time roles.
 
 Turn efficiency into something real.
 
 Business understanding. Technology-driven solutions.
 
+Typed line cycles: Application Development · Workflow Automation · Systems Integration · Business Process Improvement · AI-Assisted Development · Information & Data Management · Testing & Refinement
+
+Work with me
+Explore my capabilities
+
+Orbit chips: Application development · Workflow automation
+
 I bring together business operations, analytical thinking, technology, and AI-assisted development to solve practical problems. I look beyond individual tasks to understand how work happens, where improvements are possible, and how useful solutions can be designed, developed, and refined.
 
 From improving workflows to developing applications and connecting systems, I focus on making work simpler, information more useful, and processes more effective.
 
-Explore My Capabilities
-Professional Opportunities
+HUD: Capabilities 8 · Scoped offers 4 · Working since 2008 · Process Understand → Refine
+
+## Work with me
+
+One useful task. Proof you can see. Pay for the finished job.
+
+Each offer does one job, starts from the sheet or file you already use, and is scoped and priced before work starts.
+
+School ID-sheet automation — Fill your existing Photoshop ID-sheet layout from your school’s spreadsheet: names, LRNs, photos, and QR codes matched to each student. I’ll need: Spreadsheet, student photos, required fields, your ID layout, QR needs.
+
+QR enrollment verification — Turn an existing Google Sheet into a QR-based page that checks a student’s enrollment status. I’ll need: Sheet structure, fields to verify, who uses it, privacy needs.
+
+Sales, expenses & stock setup — A scoped workflow for recording sales, expenses, and stock, built around how your business actually runs. I’ll need: How you record today, reports you need, your existing files.
+
+Scoped website or app — A clearly defined website feature, small web application, or practical internal tool. We agree first: The problem, who uses it, the data, the deliverable, and how it’s tested.
+
+Hire me for a role — Operations, records, administrative systems, and internal-tools roles. An accounting background, hands-on experience running businesses, and practical automation, in one person.
 
 ## What I bring
 
@@ -50,6 +73,35 @@ Business Tools and Operational Solutions — Shape practical tools around sales,
 
 Testing, Troubleshooting, and Refinement — Check that a solution works, find what failed, and improve the result.
 
+## How I connect systems
+
+The right information, where the work is.
+
+Systems integration and workflow automation in one picture: records, tools, and people connected, with repeated steps automated in between.
+
+Records — Sheets, forms, and files you already use.
+Tools — Photoshop layouts, QR pages, small apps.
+Automation — Cut repeated entry between steps.
+People & reports — Information that shows up where the work is.
+
+## Proof you can see
+
+Work that already exists.
+
+Built with Cursor and AI-assisted tools, then designed, connected, tested, and refined by me.
+
+Illustrations use sample data only. No AIA logo. No insurance content in the demos.
+
+Photoshop ID-sheet automation — A custom Photoshop script reads a CSV of student records and fills a print sheet of 8 ID cards one by one: the text fields, a cropped portrait in the photo slot, and a generated QR code. The finished sheet is print-ready at 300 ppi.
+
+Student Verify — Scan the QR code on a student ID and it opens a Google Apps Script web app that shows the student’s live enrollment status and details from the school’s records in Google Sheets, with an announcements panel.
+
+Accounting system — Enter the day’s sales in the POS, and it updates stock, customers, billing, and statements automatically, with dashboards for inventory, purchasing, customers, and subscriptions.
+
+Messenger booking assistant — A Messenger assistant that answers enquiries, uses Gemini AI grounded in a dataset the owner controls, books appointments, sends call links, and notifies the owner.
+
+Threadkeeper — Concept · Android. Promises made in chats and calls slip through the cracks. Threadkeeper is a product concept that gives you one place to capture commitments, track follow-ups, and see who you’re waiting on. Never claim it is built, shipped, or tested.
+
 ## How I solve problems
 
 Understand the work, then build what fits.
@@ -61,9 +113,11 @@ Understand the work, then build what fits.
 
 ## Professional background
 
-Cebu Institute of Technology – University. Management accounting.
+Accounting roots. Real operations.
 
-2024–now — Prints & Beyond. General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts.
+Cebu Institute of Technology – University. Management accounting. Dean’s Lister, 2008 and 2012.
+
+2024–now — Prints & Beyond. General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts. Services: mugs, printing, T-shirt sublimation, ChromaLuxe, IDs, school bulk, lanyards, lamination, PVC, media editing.
 
 2019–now — Life planner, AIA Philippines. Life planner since 2019. Licensed for OL and VUL. AIA profile: https://coveredandcalm.vercel.app/profile
 
@@ -72,6 +126,10 @@ Cebu Institute of Technology – University. Management accounting.
 2013–2019 — Books and audit. Collins International Trading, Prince Retail Group of Companies, Honda Motor World, Inc.
 
 2008–2013 — Cashier, assistant, clerk. St. Anthony’s Learning Center. BIR RDO 82, Cebu City South. Metro Retail Stores Group, Inc.
+
+## Terminal
+
+Ask me anything on this page. Commands: --skills · --offers · --process · --background · --hire · clear. Hire output: Open to full-time roles.
 
 ## Professional opportunities
 

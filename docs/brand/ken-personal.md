@@ -13,7 +13,7 @@ This site is Ken’s personal employer profile. It is not Covered & Calm. Covere
 - Distinctive and restrained. Type, space, and contrast do the work. No template look. No effect without a purpose.
 - Phone first, then desktop.
 
-Do not explain Ken. No “I am”, “already built”, “while in school”, or “full time” unless he asks. Do not list Filmora, Doodly, Anireel, QuickBooks, Xero, Excel formulas, pivots, macros, or a library feature as a skill.
+Do not explain Ken. No “I am”, “already built”, “while in school”, or “full time” unless he asks. Ken asked for the live availability line: Open to full-time roles. Do not list Filmora, Doodly, Anireel, QuickBooks, Xero, Excel formulas, pivots, macros, or a library feature as a skill.
 
 ## Tone
 
@@ -31,24 +31,28 @@ Do not invent a new palette. These are the live tokens:
 
 | Token | Value | Used for |
 |---|---|---|
-| `--paper` | `#f6f4ef` | Approach band background |
-| `--white` | `#ffffff` | Page background, ghost buttons |
-| `--ink` | `#1c1917` | Body text |
-| `--muted` | `#5c564e` | Secondary text, nav |
-| `--faint` | `#8a8378` | Clock, footer |
-| `--line` | `#e4dfd6` | Rules and borders |
-| `--navy` | `#1e3a5f` | Accent, buttons, links, eyebrows |
-| `--navy-soft` | `#e8eef5` | Defined; unused on the current page |
+| `--bg` | `#05060d` | Page background |
+| `--bg2` | `#0a0d1c` | Step nodes, darker panels |
+| `--ink` | `#eef2ff` | Body text |
+| `--muted` | `#a9b1cc` | Secondary text, nav |
+| `--faint` | `#8f98b8` | Clock, labels, footer |
+| `--violet-text` | `#b69cff` | Needs labels, typed prompt |
+| `--cyan` | `#5ef0ff` | Accent, eyebrows, links |
+| `--violet` | `#8b5cff` | Gradient mid, even-card icons |
+| `--rose` | `#ff4d8d` | Gradient end, employment tag |
+| `--line` | `rgba(160,180,255,.14)` | Rules and borders |
+| `--glass` | `rgba(18,22,44,.55)` | Glass panels |
+| `--grad` | cyan → violet → rose | Buttons, headline “real.” |
 
-Also already in CSS, not as tokens: selection `#d5e2f2`; button hover `#152c49`; skip-link text `#fff`; header wash `rgba(255, 255, 255, 0.94)`. The favicon data-URI in `index.html` uses `#f7f5f1` and `#1e3a5f`.
+Also already in CSS: skip-link `#000` on cyan; header wash `rgba(5,6,13,.55)`; pulse/dot `#3dff9e`. Favicon data-URI uses `#05060d` and `#5ef0ff`. Theme color `#05060d`.
 
 ## Current fonts (from `index.html` and `styles.css`)
 
 Loaded from Google Fonts:
 
-- Outfit — 400, 500, 600. Body. Fallback: `"Segoe UI", sans-serif`.
-- Instrument Serif — regular and italic. Headings. Fallback: `Georgia, serif`.
-- IBM Plex Mono — 400, 500. Clock, eyebrows, step numbers, timeline dates. Fallback: `ui-monospace, monospace`.
+- Sora — 400, 500, 600, 700, 800. Body and headings. Fallback: `system-ui, sans-serif`.
+- Instrument Serif — italic. Emphasis in headlines. Fallback: `Georgia, serif`.
+- JetBrains Mono — 400, 500. Clock, eyebrows, tags, terminal. Fallback: `ui-monospace, monospace`.
 
 ## Allowed facts
 
@@ -57,10 +61,11 @@ Only facts already in `index.html` or `docs/SHOWCASE_LIBRARY.md`. Do not add a y
 From the live page (`index.html` / `content/PAGE_COPY.md`):
 
 - Name: Ken Roy Cardanio
+- Availability on the page: Open to full-time roles.
 - Location shown: Calamba, Misamis Occidental
 - Email: kcardanio@gmail.com (subject: Professional Opportunities)
 - Phone: +63 948 854 8171
-- Education on the page: Cebu Institute of Technology – University. Management accounting.
+- Education on the page: Cebu Institute of Technology – University. Management accounting. Dean’s Lister, 2008 and 2012.
 - 2024–now — Prints & Beyond. General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts.
 - 2019–now — Life planner, AIA Philippines. Life planner since 2019. Licensed for OL and VUL. Profile link: https://coveredandcalm.vercel.app/profile (link text: AIA profile).
 - 2021–2023 — General manager, Bamboo Groove Restobar. Events, guest care, the whole house.
@@ -73,7 +78,7 @@ From the evidence file, only when the page needs backing (do not dump the librar
 - Prints & Beyond is a partnership in Calamba, Misamis Occidental. A partner finances the shop. Ken is GM and the only employee. Do not name the financing partner.
 - Shop services that exist: mug printing, general printing, T-shirt sublimation, ChromaLuxe products, ID production, school bulk orders, lanyards, lamination, PVC products, and media editing.
 - Life planning is an AIA Philippines agent practice since 2019 (OL & VUL), kept separate from software and the shop.
-- Verified project evidence lives in the library (PhotoshopAutomation, StudentVerify, AccountingSystem, SocialMediaManagers, Threadkeeper, Vault). Do not publish `AndroidApp`, `Unifield`, or the NFT-sheet script. No project screenshots are cleared for the page.
+- Verified project evidence lives in the library (PhotoshopAutomation, StudentVerify, AccountingSystem, SocialMediaManagers, Threadkeeper, Vault). ID sheets are 8 cards per sheet. Student records are live in Google Sheets per school. The accounting app is an all-in-one solution with built-in AI that detects inventory movement and analyses sales trends. The Messenger bot runs bookings on autopilot using Gemini on a dataset the owner controls. Threadkeeper is a concept only (public label: Concept · Android). Ken has worked since 2008 while taking night classes. Do not publish `AndroidApp`, `Unifield`, or the NFT-sheet script. Proof cards use in-page sample-data animations, not client screenshots.
 - St. Anthony’s Learning Center: two Cebu names exist. Do not pick one until Ken confirms.
 
 ## Hard rules

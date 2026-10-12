@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const LIVE_FILES = ["index.html", "styles.css", "site.js", "sample-id-sheet.svg"];
+const LIVE_FILES = ["index.html", "styles.css", "site.js", "sample-id-sheet.svg", "ken-photo.png"];
 const REMOVED_ROOT_FILES = [
   "CORE_VALUES.md",
   "COLLABORATION.md",
@@ -46,7 +46,7 @@ while ((match = attrRe.exec(html))) {
 const cssUrlRe = /url\(\s*['"]?([^'")]+)['"]?\s*\)/g;
 while ((match = cssUrlRe.exec(css))) {
   const url = match[1];
-  if (/^(https?:|data:|#)/i.test(url)) continue;
+  if (/^(https?:|data:|#|%23)/i.test(url)) continue;
   localAssets.push(url.split("?")[0]);
 }
 

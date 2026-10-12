@@ -27,7 +27,7 @@ Evidence file: `docs/SHOWCASE_LIBRARY.md`. Page wording as it stands: `content/P
 
 | Area | Path | What it holds |
 |---|---|---|
-| Live site | `index.html`, `styles.css`, `site.js`, `sample-id-sheet.svg` | The only files Vercel should serve. Do not change them in a repo-structure pass. |
+| Live site | `index.html`, `styles.css`, `site.js`, `ken-photo.png`, `sample-id-sheet.svg` | The only files Vercel should serve. Do not change them in a repo-structure pass. |
 | Docs | `docs/` | Constitution, collaboration protocol, showcase evidence, brand voice, deploy notes. |
 | Content | `content/` | Current page copy. Not the strategy file. |
 | Team | `personas/`, `prompts/`, `.cursor/rules/` | Who owns the site, boot prompts, and always-on rules. |
@@ -43,7 +43,7 @@ From the repo root, serve the live files. Do not open a build step; there is non
 python3 -m http.server 4173
 ```
 
-Then open `http://127.0.0.1:4173`. The page is `index.html` with `styles.css` and `site.js`. `sample-id-sheet.svg` is a live asset; it is not linked from the current page.
+Then open `http://127.0.0.1:4173`. The page is `index.html` with `styles.css` and `site.js`. `ken-photo.png` is the hero portrait. `sample-id-sheet.svg` is a live asset; it is not linked from the current page. Add `?shot=1` to freeze motion for screenshots.
 
 You can also open `index.html` directly in a browser. A local server is better for fonts and for the screenshot script.
 
@@ -58,10 +58,12 @@ npm run screenshot
 
 `npm run check` is dependency-light. It confirms that `index.html` points at files that exist, that internal `#` anchors resolve, that the live files do not mention the old root docs (`CORE_VALUES.md`, `COLLABORATION.md`, `SHOWCASE_LIBRARY.md`, `PAGE_COPY.md`), and that no AIA logo image is referenced.
 
-`npm run screenshot` writes two viewport shots of `index.html` into `screenshots/` (gitignored):
+`npm run screenshot` writes first-screen and full-page shots of `index.html?shot=1` into `screenshots/` (gitignored):
 
 - `screenshots/phone-390x844.png`
+- `screenshots/phone-390x844-full.png`
 - `screenshots/desktop-1280x800.png`
+- `screenshots/desktop-1280x800-full.png`
 
 Keny reviews those shots. Ken approves the merge. The public page must look unchanged unless Ken approved a visual change.
 

@@ -49,17 +49,21 @@ function startServer() {
   });
 }
 
-async function shot(page, width, height, filename) {
+async function shot(page, width, height, filename, fullPage) {
   await page.setViewport({ width, height, deviceScaleFactor: 1 });
-  await page.goto("http://" + HOST + ":" + PORT + "/", {
+  await page.goto("http://" + HOST + ":" + PORT + "/?shot=1", {
     waitUntil: "networkidle0",
     timeout: 60000
   });
   const dest = path.join(OUT_DIR, filename);
-  await page.screenshot({
-    path: dest,
-    clip: { x: 0, y: 0, width, height }
-  });
+  if (fullPage) {
+    await page.screenshot({ path: dest, fullPage: true });
+  } else {
+    await page.screenshot({
+      path: dest,
+      clip: { x: 0, y: 0, width, height }
+    });
+  }
   console.log("wrote " + dest);
 }
 
@@ -72,8 +76,10 @@ async function shot(page, width, height, filename) {
   });
   try {
     const page = await browser.newPage();
-    await shot(page, 390, 844, "phone-390x844.png");
-    await shot(page, 1280, 800, "desktop-1280x800.png");
+    await shot(page, 390, 844, "phone-390x844.png", false);
+    await shot(page, 390, 844, "phone-390x844-full.png", true);
+    await shot(page, 1280, 800, "desktop-1280x800.png", false);
+    await shot(page, 1280, 800, "desktop-1280x800-full.png", true);
   } finally {
     await browser.close();
     await new Promise((resolve) => server.close(resolve));
