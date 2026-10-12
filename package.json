@@ -1,0 +1,12 @@
+{
+  "name": "ken-roy-cardanio-site",
+  "private": true,
+  "description": "Local check and screenshot scripts for Ken Roy Cardanio's personal showcase. Not deployed.",
+  "scripts": {
+    "check": "node scripts/check.js",
+    "screenshot": "node scripts/screenshot.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.22.3"
+  }
+}

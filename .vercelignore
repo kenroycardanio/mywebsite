@@ -1,5 +1,12 @@
-SHOWCASE_LIBRARY.md
-CORE_VALUES.md
-COLLABORATION.md
-PAGE_COPY.md
+docs/
+content/
+personas/
+prompts/
+scripts/
+START_HERE.md
 .cursor
+node_modules
+package.json
+package-lock.json
+screenshots
+.gitignore
