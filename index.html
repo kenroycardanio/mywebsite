@@ -2,152 +2,303 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ken Roy Cardanio</title>
-  <meta name="description" content="Ken Roy Cardanio. Turn efficiency into something real. Business understanding. Technology-driven solutions.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ken Roy Cardanio · Turn efficiency into something real</title>
+  <meta name="description" content="Ken Roy Cardanio. Business understanding. Technology-driven solutions. Application development, workflow automation, and systems integration.">
+  <meta name="theme-color" content="#05060d">
   <meta property="og:title" content="Ken Roy Cardanio">
   <meta property="og:description" content="I understand business problems and use technology, systems thinking, automation, and AI-assisted development to create practical solutions.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f7f5f1'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%231e3a5f'%3EK%3C/text%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2305060d'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='700' font-size='15' fill='%235ef0ff'%3EK%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot-box mono">
+      <p><span class="ok">●</span> ken.os <span class="dim">booting</span></p>
+      <p class="bl">load profile ............ <b>ok</b></p>
+      <p class="bl">mount capabilities [8] .. <b>ok</b></p>
+      <p class="bl">connect systems ......... <b>ok</b></p>
+      <div class="boot-bar"><i></i></div>
+      <p class="dim skip-hint">press any key to skip</p>
+    </div>
+  </div>
   <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="wordmark" href="#top">Ken Roy Cardanio</a>
+    <a class="wordmark" href="#top" aria-label="Ken Roy Cardanio, back to top"><span class="mark">K</span><span class="wm-text">Ken Roy Cardanio</span></a>
     <nav aria-label="Page">
+      <a href="#work">Work with me</a>
       <a href="#capabilities">Capabilities</a>
-      <a href="#approach">Approach</a>
-      <a href="#background">Background</a>
-      <a href="#opportunities">Opportunities</a>
-    </nav>
-    <p class="clock" data-clock>Calamba</p>
+      <a href="#systems">Systems</a>
+      <a href="#proof">Proof</a>
+      <a href="#terminal">Terminal</a>
+      </nav>
+    <p class="clock" data-clock><span class="dot"></span>Calamba</p>
+    <button class="kbd-btn" type="button" data-palette-open aria-label="Open command palette"><span class="mono">⌘K</span></button>
+    <a class="btn btn-sm magnetic" href="#hire"><span>Hire me</span></a>
   </header>
 
   <main id="main">
+    <!-- HERO -->
     <section class="hero" id="top">
-      <p class="eyebrow">Ken Roy Cardanio</p>
-      <h1>Turn efficiency into something real.</h1>
-      <p class="support">Business understanding. Technology-driven solutions.</p>
+      <div class="hero-photo" data-parallax>
+        <div class="rings" aria-hidden="true"><canvas class="globe" data-globe></canvas><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><div class="halo"></div></div>
+        <img src="ken-photo.png" alt="Ken Roy Cardanio" width="494" height="492" fetchpriority="high">
+        <span class="orbit-chip c1">Application development</span>
+        <span class="orbit-chip c2">Workflow automation</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span>Open to full-time roles.</p>
+        <h1 class="headline" aria-label="Turn efficiency into something real.">
+          <span class="w">Turn</span> <span class="w">efficiency</span> <span class="w">into</span> <span class="w">something</span> <em class="w real">real.</em>
+        </h1>
+        <p class="support">Business understanding. Technology-driven solutions.</p>
+        <p class="typed-line" aria-live="off"><span class="mono">&gt;</span> <span class="typed" data-typed>Application Development</span><span class="caret" aria-hidden="true"></span></p>
+        <div class="hero-actions">
+          <a class="btn magnetic" href="#hire"><span>Work with me</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#capabilities">Explore my capabilities</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#work" aria-label="Scroll to services"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Application Development</span><b>✦</b><span>Workflow Automation</span><b>✦</b><span>Systems Integration</span><b>✦</b><span>Business Process Improvement</span><b>✦</b><span>AI-Assisted Development</span><b>✦</b><span>Information &amp; Data Management</span><b>✦</b><span>Operational Tools</span><b>✦</b><span>Testing &amp; Refinement</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- INTRO -->
+    <section class="intro reveal">
       <p class="lede">I bring together business operations, analytical thinking, technology, and AI-assisted development to solve practical problems. I look beyond individual tasks to understand how work happens, where improvements are possible, and how useful solutions can be designed, developed, and refined.</p>
       <p>From improving workflows to developing applications and connecting systems, I focus on making work simpler, information more useful, and processes more effective.</p>
-      <div class="hero-actions">
-        <a class="button" href="#capabilities">Explore My Capabilities</a>
-        <a class="ghost" href="#opportunities">Professional Opportunities</a>
+    </section>
+
+    <!-- HUD -->
+    <section class="hud reveal" aria-label="At a glance">
+      <div class="hud-cell"><p class="hud-k">Capabilities</p><p class="hud-v"><span data-count="8">8</span></p></div>
+      <div class="hud-cell"><p class="hud-k">Scoped offers</p><p class="hud-v"><span data-count="4">4</span></p></div>
+      <div class="hud-cell"><p class="hud-k">Working since</p><p class="hud-v"><span data-count="2008" data-from="1990">2008</span></p></div>
+      <div class="hud-cell"><p class="hud-k">Process</p><p class="hud-v sm">Understand → Refine</p></div>
+    </section>
+
+    <!-- WORK WITH ME -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="kicker reveal">
+        <p class="label"><span>01</span> Work with me</p>
+        <h2 id="work-title">One useful task. <em>Proof you can see.</em> Pay for the finished job.</h2>
+        <p class="note">Each offer does one job, starts from the sheet or file you already use, and is scoped and priced before work starts.</p>
+      </div>
+      <div class="offers">
+        <article class="offer card tilt reveal">
+          <p class="tag">Schools</p>
+          <h3>School ID-sheet automation</h3>
+          <p>Fill your existing Photoshop ID-sheet layout from your school’s spreadsheet: names, LRNs, photos, and QR codes matched to each student.</p>
+          <p class="needs"><span>I’ll need</span> Spreadsheet, student photos, required fields, your ID layout, QR needs.</p>
+        </article>
+        <article class="offer card tilt reveal">
+          <p class="tag">Schools · Training centers</p>
+          <h3>QR enrollment verification</h3>
+          <p>Turn an existing Google Sheet into a QR-based page that checks a student’s enrollment status.</p>
+          <p class="needs"><span>I’ll need</span> Sheet structure, fields to verify, who uses it, privacy needs.</p>
+        </article>
+        <article class="offer card tilt reveal">
+          <p class="tag">Small business</p>
+          <h3>Sales, expenses &amp; stock setup</h3>
+          <p>A scoped workflow for recording sales, expenses, and stock, built around how your business actually runs.</p>
+          <p class="needs"><span>I’ll need</span> How you record today, reports you need, your existing files.</p>
+        </article>
+        <article class="offer card tilt reveal">
+          <p class="tag">Projects</p>
+          <h3>Scoped website or app</h3>
+          <p>A clearly defined website feature, small web application, or practical internal tool.</p>
+          <p class="needs"><span>We agree first</span> The problem, who uses it, the data, the deliverable, and how it’s tested.</p>
+        </article>
+        <article class="offer card tilt wide reveal">
+          <p class="tag hot">Employment</p>
+          <h3>Hire me for a role</h3>
+          <p>Operations, records, administrative systems, and internal-tools roles. An accounting background, hands-on experience running businesses, and practical automation, in one person.</p>
+          <a class="text-link" href="mailto:kcardanio@gmail.com?subject=Professional%20Opportunities">Talk about a role →</a>
+        </article>
       </div>
     </section>
 
-    <section class="capabilities" id="capabilities" aria-labelledby="capabilities-title">
-      <div class="section-kicker">
-        <p>What I bring</p>
-        <h2 id="capabilities-title">A practical set of ways to help.</h2>
+    <!-- CAPABILITIES -->
+    <section class="capabilities" id="capabilities" aria-labelledby="cap-title">
+      <div class="kicker reveal">
+        <p class="label"><span>02</span> What I bring</p>
+        <h2 id="cap-title">A practical set of <em>ways to help.</em></h2>
       </div>
-      <ol class="skills">
-        <li>
-          <h3>Application Development</h3>
-          <p>Take a working idea from requirements through an interface, build, test, and refinement.</p>
-        </li>
-        <li>
-          <h3>Workflow Automation</h3>
-          <p>Cut repeated entry and simplify the handoff from one step to the next.</p>
-        </li>
-        <li>
-          <h3>Systems Integration</h3>
-          <p>Connect records, tools, and steps so the right information shows up where the work is.</p>
-        </li>
-        <li>
-          <h3>Business Process Improvement</h3>
-          <p>Start from how the work is actually done, then remove effort that does not need to be there.</p>
-        </li>
-        <li>
-          <h3>AI-Assisted Development</h3>
-          <p>Use AI-assisted tools to build and explore faster, then test and refine what they produce.</p>
-        </li>
-        <li>
-          <h3>Information and Data Management</h3>
-          <p>Turn records and documents into information people can find and keep current.</p>
-        </li>
-        <li>
-          <h3>Business Tools and Operational Solutions</h3>
-          <p>Shape practical tools around sales, expenses, stock, follow-ups, and daily operations.</p>
-        </li>
-        <li>
-          <h3>Testing, Troubleshooting, and Refinement</h3>
-          <p>Check that a solution works, find what failed, and improve the result.</p>
-        </li>
+      <ol class="cap-grid">
+        <li class="cap card tilt reveal"><span class="ix">01</span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M7 9l3 3-3 3M12 15h5"/></svg><h3>Application Development</h3><p>Take a working idea from requirements through an interface, build, test, and refinement.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">02</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg><h3>Workflow Automation</h3><p>Cut repeated entry and simplify the handoff from one step to the next.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">03</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M7.3 11 16.7 6M7.3 13l9.4 5"/></svg><h3>Systems Integration</h3><p>Connect records, tools, and steps so the right information shows up where the work is.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">04</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><h3>Business Process Improvement</h3><p>Start from how the work is actually done, then remove effort that does not need to be there.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">05</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z"/></svg><h3>AI-Assisted Development</h3><p>Use AI-assisted tools to build and explore faster, then test and refine what they produce.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">06</span><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12v7c0 1.7 3.6 3 8 3s8-1.3 8-3v-7"/></svg><h3>Information and Data Management</h3><p>Turn records and documents into information people can find and keep current.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">07</span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg><h3>Business Tools and Operational Solutions</h3><p>Shape practical tools around sales, expenses, stock, follow-ups, and daily operations.</p></li>
+        <li class="cap card tilt reveal"><span class="ix">08</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5M8 11l2 2 4-4"/></svg><h3>Testing, Troubleshooting, and Refinement</h3><p>Check that a solution works, find what failed, and improve the result.</p></li>
       </ol>
     </section>
 
+    <!-- SYSTEMS -->
+    <section class="systems" id="systems" aria-labelledby="sys-title">
+      <div class="kicker reveal">
+        <p class="label"><span>03</span> How I connect systems</p>
+        <h2 id="sys-title">The right information, <em>where the work is.</em></h2>
+        <p class="note">Systems integration and workflow automation in one picture: records, tools, and people connected, with repeated steps automated in between.</p>
+      </div>
+      <div class="sys-wrap card reveal">
+        <svg class="sys" viewBox="0 0 360 300" role="img" aria-label="Diagram: Records and Tools feed Automation, which delivers to People and Reports">
+          <defs>
+            <linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#5ef0ff"/><stop offset=".6" stop-color="#8b5cff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+            <filter id="gl"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g class="links" fill="none" stroke="url(#lg)" stroke-width="1.4">
+            <path id="p1" d="M70 70 C 130 70, 140 150, 180 150"/>
+            <path id="p2" d="M70 230 C 130 230, 140 150, 180 150"/>
+            <path id="p3" d="M180 150 C 220 150, 230 70, 290 70"/>
+            <path id="p4" d="M180 150 C 220 150, 230 230, 290 230"/>
+          </g>
+          <g class="packets" filter="url(#gl)">
+            <circle r="3.2" fill="#5ef0ff"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+            <circle r="3.2" fill="#5ef0ff"><animateMotion dur="2.6s" begin="-1.3s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+            <circle r="3.2" fill="#ff4d8d"><animateMotion dur="2.6s" begin="-.6s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+            <circle r="3.2" fill="#ff4d8d"><animateMotion dur="2.6s" begin="-1.9s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+          </g>
+          <g class="nodes">
+            <g transform="translate(70 70)"><rect x="-46" y="-22" width="92" height="44" rx="12"/><text y="5">Records</text></g>
+            <g transform="translate(70 230)"><rect x="-46" y="-22" width="92" height="44" rx="12"/><text y="5">Tools</text></g>
+            <g class="core" transform="translate(180 150)"><circle r="34"/><text y="-2">Auto-</text><text y="12">mation</text></g>
+            <g transform="translate(290 70)"><rect x="-46" y="-22" width="92" height="44" rx="12"/><text y="5">People</text></g>
+            <g transform="translate(290 230)"><rect x="-46" y="-22" width="92" height="44" rx="12"/><text y="5">Reports</text></g>
+          </g>
+        </svg>
+        <ul class="sys-legend">
+          <li><b>Records</b> Sheets, forms, and files you already use.</li>
+          <li><b>Tools</b> Photoshop layouts, QR pages, small apps.</li>
+          <li><b>Automation</b> Cut repeated entry between steps.</li>
+          <li><b>People &amp; reports</b> Information that shows up where the work is.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+      <div class="kicker reveal">
+        <p class="label"><span>04</span> Proof you can see</p>
+        <h2 id="proof-title">Work that <em>already exists.</em></h2>
+        <p class="note">Built with Cursor and AI-assisted tools, then designed, connected, tested, and refined by me.</p>
+      </div>
+      <div class="proof-list">
+        <article class="case card reveal">
+          <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>print-sheet.psd · Photoshop + CSV script</span></div><div class="win-body idflow-body"><div class="idflow" data-idflow role="img" aria-label="Animated illustration: a Photoshop script reads a CSV of sample records and fills 8 ID cards on a print sheet, one by one, with name, photo, and QR code"></div></div><p class="win-note mono ok-note">Illustration of my Photoshop + CSV automation · sample data</p></div>
+          <div class="case-body">
+            <p class="tag">Document automation</p>
+            <h3>Photoshop ID-sheet automation</h3>
+            <p>A custom Photoshop script reads a CSV of student records and fills a print sheet of 8 ID cards one by one: the text fields, a cropped portrait in the photo slot, and a generated QR code. The finished sheet is print-ready at 300 ppi.</p>
+          </div>
+        </article>
+        <article class="case card reveal">
+          <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>student-verify · QR → Apps Script → live records</span></div><div class="win-body svflow-body"><div class="svflow" data-svflow role="img" aria-label="Animated illustration: a phone scans the QR code on a sample student ID, opens a Google Apps Script web app, and shows the student's live enrollment status and details, then opens an announcements panel"></div></div><p class="win-note mono ok-note">Illustration of my QR + Google Apps Script verification · sample data</p></div>
+          <div class="case-body">
+            <p class="tag">Spreadsheet-connected web tool</p>
+            <h3>Student Verify</h3>
+            <p>Scan the QR code on a student ID and it opens a Google Apps Script web app that shows the student’s live enrollment status and details from the school’s records in Google Sheets, with an announcements panel.</p>
+          </div>
+        </article>
+        <article class="case card reveal">
+          <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>accounting · POS → stock, customers, billing</span></div><div class="win-body acflow-body"><div class="acflow" data-acflow role="img" aria-label="Animated illustration: three sample sales are entered in a POS, then the system updates stock, customers, billing, and statements and shows dashboards for inventory, purchasing, customers, billing, and subscriptions"></div></div><p class="win-note mono ok-note">Illustration of my POS + accounting system · sample data</p></div>
+          <div class="case-body">
+            <p class="tag">Business web application</p>
+            <h3>Accounting system</h3>
+            <p>Enter the day’s sales in the POS, and it updates stock, customers, billing, and statements automatically, with dashboards for inventory, purchasing, customers, and subscriptions.</p>
+          </div>
+        </article>
+        <article class="case card reveal">
+          <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>messenger assistant · chat → AI → booking</span></div><div class="win-body msflow-body"><div class="msflow" data-msflow role="img" aria-label="Animated illustration: a customer chats with a sample business on Messenger; the assistant answers with canned replies, then a Gemini AI answer grounded in the owner's dataset, books a call, sends a call link, and notifies the owner"></div></div><p class="win-note mono ok-note">Illustration of my Messenger assistant · sample chat</p></div>
+          <div class="case-body">
+            <p class="tag">Workflow &amp; communication</p>
+            <h3>Messenger booking assistant</h3>
+            <p>A Messenger assistant that answers enquiries, uses Gemini AI grounded in a dataset the owner controls, books appointments, sends call links, and notifies the owner.</p>
+          </div>
+        </article>
+        <article class="case card reveal">
+          <div class="win"><div class="win-bar"><i></i><i></i><i></i><span>threadkeeper · capture → follow up → done</span></div><div class="win-body tkflow-body"><div class="tkflow" data-tkflow role="img" aria-label="Animated concept design of the Threadkeeper Android app: a commitment to send a quotation to Maria Santos by Thursday is captured with person, due date, and channel; the follow-up list shows reminders and overdue items; the Waiting on view shows Jun Reyes has had an invoice approval pending for 3 days; then the quotation task is checked off and the done counter goes up"></div></div><p class="win-note mono ok-note">Concept design · sample data</p></div>
+          <div class="case-body">
+            <p class="tag">Concept · Android</p>
+            <h3>Threadkeeper</h3>
+            <p>Promises made in chats and calls slip through the cracks. Threadkeeper is a product concept that gives you one place to capture commitments, track follow-ups, and see who you’re waiting on.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
     <section class="approach" id="approach" aria-labelledby="approach-title">
-      <div class="section-kicker">
-        <p>How I solve problems</p>
-        <h2 id="approach-title">Understand the work, then build what fits.</h2>
+      <div class="kicker reveal">
+        <p class="label"><span>05</span> How I solve problems</p>
+        <h2 id="approach-title">Understand the work, <em>then build what fits.</em></h2>
       </div>
       <ol class="steps">
-        <li>
-          <span>01</span>
-          <h3>Understand</h3>
-          <p>Understand the business need, existing workflow, and people involved.</p>
-        </li>
-        <li>
-          <span>02</span>
-          <h3>Design</h3>
-          <p>Identify a practical approach using appropriate processes, tools, and technology.</p>
-        </li>
-        <li>
-          <span>03</span>
-          <h3>Develop</h3>
-          <p>Build, configure, or connect the components needed to make the solution work.</p>
-        </li>
-        <li>
-          <span>04</span>
-          <h3>Refine</h3>
-          <p>Test functionality, troubleshoot problems, and improve the result.</p>
-        </li>
+        <li class="step reveal"><span class="node">01</span><h3>Understand</h3><p>Understand the business need, existing workflow, and people involved.</p></li>
+        <li class="step reveal"><span class="node">02</span><h3>Design</h3><p>Identify a practical approach using appropriate processes, tools, and technology.</p></li>
+        <li class="step reveal"><span class="node">03</span><h3>Develop</h3><p>Build, configure, or connect the components needed to make the solution work.</p></li>
+        <li class="step reveal"><span class="node">04</span><h3>Refine</h3><p>Test functionality, troubleshoot problems, and improve the result.</p></li>
       </ol>
     </section>
 
-    <section class="background" id="background" aria-labelledby="background-title">
-      <div class="section-kicker">
-        <p>Professional background</p>
-        <h2 id="background-title">Cebu Institute of Technology – University.</h2>
-        <p class="kicker-note">Management accounting.</p>
+    <!-- BACKGROUND -->
+    <section class="background" id="background" aria-labelledby="bg-title">
+      <div class="kicker reveal">
+        <p class="label"><span>06</span> Professional background</p>
+        <h2 id="bg-title">Accounting roots. <em>Real operations.</em></h2>
+        <p class="note">Cebu Institute of Technology – University. Management accounting. Dean’s Lister, 2008 and 2012.</p>
       </div>
-      <ol class="timeline">
-        <li>
-          <p>2024–now</p>
-          <div>
+      <ol class="timeline" data-timeline>
+        <li class="t-item reveal">
+          <p class="when">2024–now</p>
+          <div class="card">
             <h3>Prints &amp; Beyond</h3>
             <p>General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts.</p>
+            <ul class="chips"><li>Mugs</li><li>Printing</li><li>T-shirt sublimation</li><li>ChromaLuxe</li><li>IDs</li><li>School bulk</li><li>Lanyards</li><li>Lamination</li><li>PVC</li><li>Media editing</li></ul>
           </div>
         </li>
-        <li>
-          <p>2019–now</p>
-          <div>
+        <li class="t-item reveal">
+          <p class="when">2019–now</p>
+          <div class="card">
             <h3>Life planner, AIA Philippines</h3>
             <p>Life planner since 2019. Licensed for OL and VUL. <a href="https://coveredandcalm.vercel.app/profile">AIA profile</a></p>
           </div>
         </li>
-        <li>
-          <p>2021–2023</p>
-          <div>
+        <li class="t-item reveal">
+          <p class="when">2021–2023</p>
+          <div class="card">
             <h3>General manager, Bamboo Groove Restobar</h3>
             <p>Events, guest care, the whole house.</p>
           </div>
         </li>
-        <li>
-          <p>2013–2019</p>
-          <div>
+        <li class="t-item reveal">
+          <p class="when">2013–2019</p>
+          <div class="card">
             <h3>Books and audit</h3>
             <p>Collins International Trading, Prince Retail Group of Companies, Honda Motor World, Inc.</p>
           </div>
         </li>
-        <li>
-          <p>2008–2013</p>
-          <div>
+        <li class="t-item reveal">
+          <p class="when">2008–2013</p>
+          <div class="card">
             <h3>Cashier, assistant, clerk</h3>
             <p>School cashier, St. Anthony’s Learning Center. Assistant, BIR RDO 82, Cebu City South. Accounting clerk, Metro Retail Stores Group, Inc.</p>
           </div>
@@ -155,23 +306,80 @@
       </ol>
     </section>
 
-    <section class="opportunities" id="opportunities" aria-labelledby="opportunities-title">
-      <p class="eyebrow">Professional opportunities</p>
-      <h2 id="opportunities-title">Let’s make work better.</h2>
-      <p class="lede">I’m open to opportunities where business understanding, systems thinking, and technology can come together to solve real problems. I bring an analytical mindset, practical business experience, and the willingness to learn, build, test, and improve.</p>
-      <p>The roles that fit sit in business operations, process improvement, systems support, automation, application development, and technology-driven problem-solving.</p>
-      <ul class="contact-list">
-        <li><a href="mailto:kcardanio@gmail.com?subject=Professional%20Opportunities">kcardanio@gmail.com</a></li>
-        <li><a href="tel:+639488548171">+63 948 854 8171</a></li>
-        <li>Calamba, Misamis Occidental</li>
-      </ul>
+    <!-- TERMINAL -->
+    <section class="terminal-sec" id="terminal" aria-labelledby="term-title">
+      <div class="kicker reveal">
+        <p class="label"><span>07</span> Try the terminal</p>
+        <h2 id="term-title">Ask me <em>anything on this page.</em></h2>
+        <p class="note">Type a command or tap one below. Press <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>K</kbd> anywhere for the command palette.</p>
+      </div>
+      <div class="term card reveal">
+        <div class="win-bar"><i></i><i></i><i></i><span>ken@calamba: ~</span></div>
+        <div class="term-out mono" data-term-out aria-live="polite">
+          <p><span class="pr">ken@calamba:~$</span> ken --help</p>
+          <p class="dim">commands: --skills · --offers · --process · --background · --hire · clear</p>
+        </div>
+        <form class="term-in mono" data-term-form autocomplete="off">
+          <label for="term-input" class="pr">ken@calamba:~$</label>
+          <input id="term-input" data-term-input type="text" spellcheck="false" placeholder="ken --skills" aria-label="Terminal command">
+        </form>
+        <div class="term-chips">
+          <button type="button" data-cmd="ken --skills">--skills</button>
+          <button type="button" data-cmd="ken --offers">--offers</button>
+          <button type="button" data-cmd="ken --process">--process</button>
+          <button type="button" data-cmd="ken --background">--background</button>
+          <button type="button" data-cmd="ken --hire">--hire</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIRE -->
+    <section class="hire" id="hire" aria-labelledby="hire-title">
+      <div class="hire-panel reveal">
+        <div class="hire-orb" aria-hidden="true"></div>
+        <p class="label"><span>08</span> Professional opportunities</p>
+        <h2 id="hire-title">Let’s make <em>work better.</em></h2>
+        <p class="lede">I’m open to opportunities where business understanding, systems thinking, and technology can come together to solve real problems. I bring an analytical mindset, practical business experience, and the willingness to learn, build, test, and improve.</p>
+        <p>The roles that fit sit in business operations, process improvement, systems support, automation, application development, and technology-driven problem-solving.</p>
+        <div class="doors">
+          <a class="door magnetic" href="mailto:kcardanio@gmail.com?subject=Professional%20Opportunities">
+            <span class="door-k">Hiring?</span>
+            <strong>Email me about a role</strong>
+            <span class="door-v">kcardanio@gmail.com</span>
+          </a>
+          <a class="door magnetic" href="mailto:kcardanio@gmail.com?subject=Project%20inquiry">
+            <span class="door-k">Have a task?</span>
+            <strong>Scope a project</strong>
+            <span class="door-v">Tell me the sheet, file, or workflow</span>
+          </a>
+          <a class="door magnetic" href="tel:+639488548171">
+            <span class="door-k">Prefer to talk?</span>
+            <strong>Call me</strong>
+            <span class="door-v">+63 948 854 8171</span>
+          </a>
+        </div>
+        <div class="contact-row">
+          <button class="copy" type="button" data-copy="kcardanio@gmail.com">Copy email</button>
+          <span class="loc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Calamba, Misamis Occidental</span>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Ken Roy Cardanio</p>
-    <a href="#top">Back to top</a>
+    <p>© Ken Roy Cardanio</p>
+    <p class="mono" data-clock-foot></p>
+    <a href="#top">Back to top ↑</a>
   </footer>
+  <div class="palette" data-palette hidden>
+    <div class="pal-backdrop" data-palette-close></div>
+    <div class="pal-box" role="dialog" aria-modal="true" aria-label="Command palette">
+      <input class="pal-input" data-pal-input type="text" placeholder="Jump to… or run a command" aria-label="Search commands">
+      <ul class="pal-list" data-pal-list role="listbox"></ul>
+      <p class="pal-foot mono">↑↓ to move · Enter to run · Esc to close</p>
+    </div>
+  </div>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
   <script src="site.js"></script>
 </body>
 </html>

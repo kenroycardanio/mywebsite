@@ -4,7 +4,7 @@ Authoritative project evidence, skills, experience, and service boundaries.
 
 This document defines the verified project evidence, professional capabilities, employment history, and public showcase boundaries for Ken Roy Cardanio's website.
 
-Read `CORE_VALUES.md` first. If any instruction or claim conflicts with it, `CORE_VALUES.md` takes precedence.
+Read `docs/CORE_VALUES.md` first. If any instruction or claim conflicts with it, `docs/CORE_VALUES.md` takes precedence.
 
 This is not merely a portfolio inventory. Use it to establish a credible professional position focused on practical automation, application development, workflow improvement, and business operations.
 
@@ -50,7 +50,7 @@ Demonstrated capability:
 
 - Populating Photoshop ID-sheet layouts using spreadsheet data.
 - Matching names, LRN values, photographs, and QR codes to individual student records.
-- Generating multiple ID cards within a sheet, typically four or five cards per sheet.
+- Generating 8 ID cards per sheet.
 - Automating a repetitive document-production workflow.
 
 Professional positioning: automate repetitive document and ID-sheet preparation using the client's existing spreadsheet and design workflow.
@@ -69,6 +69,7 @@ Demonstrated capability:
 
 - Google Apps Script.
 - Reading student records from a Google Sheet.
+- Student records are live in Google Sheets per school.
 - QR-based access to an enrollment-status page.
 - Connecting existing spreadsheet records to a simple verification workflow.
 
@@ -84,7 +85,7 @@ Do not claim production-grade security, unrestricted access control, or guarante
 
 **Evidence:** `AccountingSystem`
 
-The existing application includes modules for sales, stock and inventory, purchasing, customer records, billing, statements, and subscriptions.
+The existing application is an all-in-one solution. It includes modules for sales, stock and inventory, purchasing, customer records, billing, statements, and subscriptions. Built-in AI detects inventory movement and analyses sales trends.
 
 The public service offer must remain narrower than the full application.
 
@@ -120,7 +121,7 @@ Do not imply that every category has an existing completed portfolio project.
 
 Vault, in `AndroidApp` module `app`, may appear as earlier work: a local Android utility for passwords and prompts. Do not present it as the flagship.
 
-Threadkeeper, in `AndroidApp` module `threadkeeper`, is the next flagship Android application. Public text may describe only behavior that has been built and run. Do not invent screenshots, users, or measured results.
+Threadkeeper is a concept only. Public label: Concept · Android. Never claim it is built, shipped, or tested. Do not invent screenshots, users, or measured results. Do not publish the `AndroidApp` module.
 
 Do not advertise `Unifield` as public proof.
 
@@ -146,6 +147,7 @@ Existing work includes:
 
 - Covered & Calm Messenger bot deployed on Vercel.
 - Booking workflow.
+- The Messenger bot runs bookings on autopilot: call links, follow-ups, and confirmations. It uses Gemini on a dataset the owner controls.
 - Welcome messages and reply scripts.
 - Personas supporting post creation, canned replies, and comment replies.
 
@@ -206,6 +208,8 @@ Present experience accurately and avoid duplicated employment entries.
 ### Education
 
 Cebu Institute of Technology – University. Management accounting. Dean's Lister, 2008 and 2012.
+
+Ken has worked since 2008 while taking night classes.
 
 ### 2024–present — Prints & Beyond
 
@@ -348,7 +352,7 @@ Do not publish prices until Ken sets them.
 
 Inspect the actual project folders and source code before making any further skill claims.
 
-Use this library together with `CORE_VALUES.md` to refine the website's professional positioning, project descriptions, service descriptions, and skills presentation.
+Use this library together with `docs/CORE_VALUES.md` to refine the website's professional positioning, project descriptions, service descriptions, and skills presentation.
 
 Recommend the strongest additional technical capabilities that are genuinely demonstrated by the existing codebase, especially practical work such as automation, integrations, web applications, and workflow systems.
 
@@ -358,4 +362,4 @@ Make implementation decisions proactively, but flag factual uncertainties and pu
 
 The public presentation should communicate one central message: Ken can understand a problem, develop an application around it, make its parts work together, test the result, and improve it into a useful product.
 
-Where this library's headline order and `CORE_VALUES.md` disagree, the constitution wins. Application development leads the portfolio. The shop, the school work, and the finished records task stay as real supporting evidence. They do not disappear, and they are not merged into one invented product.
+Where this library's headline order and `docs/CORE_VALUES.md` disagree, the constitution wins. Application development leads the portfolio. The shop, the school work, and the finished records task stay as real supporting evidence. They do not disappear, and they are not merged into one invented product.
