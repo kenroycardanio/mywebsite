@@ -4,7 +4,7 @@ Authoritative project evidence, skills, experience, and service boundaries.
 
 This document defines the verified project evidence, professional capabilities, employment history, and public showcase boundaries for Ken Roy Cardanio's website.
 
-Read `CORE_VALUES.md` first. If any instruction or claim conflicts with it, `CORE_VALUES.md` takes precedence.
+Read `docs/CORE_VALUES.md` first. If any instruction or claim conflicts with it, `docs/CORE_VALUES.md` takes precedence.
 
 This is not merely a portfolio inventory. Use it to establish a credible professional position focused on practical automation, application development, workflow improvement, and business operations.
 
@@ -348,7 +348,7 @@ Do not publish prices until Ken sets them.
 
 Inspect the actual project folders and source code before making any further skill claims.
 
-Use this library together with `CORE_VALUES.md` to refine the website's professional positioning, project descriptions, service descriptions, and skills presentation.
+Use this library together with `docs/CORE_VALUES.md` to refine the website's professional positioning, project descriptions, service descriptions, and skills presentation.
 
 Recommend the strongest additional technical capabilities that are genuinely demonstrated by the existing codebase, especially practical work such as automation, integrations, web applications, and workflow systems.
 
@@ -358,4 +358,4 @@ Make implementation decisions proactively, but flag factual uncertainties and pu
 
 The public presentation should communicate one central message: Ken can understand a problem, develop an application around it, make its parts work together, test the result, and improve it into a useful product.
 
-Where this library's headline order and `CORE_VALUES.md` disagree, the constitution wins. Application development leads the portfolio. The shop, the school work, and the finished records task stay as real supporting evidence. They do not disappear, and they are not merged into one invented product.
+Where this library's headline order and `docs/CORE_VALUES.md` disagree, the constitution wins. Application development leads the portfolio. The shop, the school work, and the finished records task stay as real supporting evidence. They do not disappear, and they are not merged into one invented product.

@@ -8,7 +8,7 @@ Cursor inspects the project, reports accurate findings, and proposes one practic
 
 ## Phase 1 — Inspect and report
 
-1. Read `CORE_VALUES.md` and `SHOWCASE_LIBRARY.md` when the task touches the public site.
+1. Read `docs/CORE_VALUES.md` and `docs/SHOWCASE_LIBRARY.md` when the task touches the public site.
 2. Inspect the actual source, structure, and affected parts.
 3. Identify the current behavior, constraints, and what stays untouched.
 4. Name risks, missing facts, and assumptions.
@@ -50,4 +50,4 @@ After the proposal, stop. Do not edit source, install dependencies, migrate, or 
 - Inspect, propose, wait, execute, verify.
 - Read-only inspection is allowed before approval.
 - Do not claim a change or a check that did not happen.
-- `CORE_VALUES.md` still governs public claims. `SHOWCASE_LIBRARY.md` is the evidence file.
+- `docs/CORE_VALUES.md` still governs public claims. `docs/SHOWCASE_LIBRARY.md` is the evidence file.

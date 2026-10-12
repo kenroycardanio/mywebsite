@@ -5,14 +5,14 @@ alwaysApply: true
 
 # Website Creation
 
-`CORE_VALUES.md` is the constitution for this site and for every paid offer on it. If a public line conflicts with it, the constitution wins. Do not replace it with generic marketing, and do not soften a restriction to make a sentence sound stronger.
+`docs/CORE_VALUES.md` is the constitution for this site and for every paid offer on it. If a public line conflicts with it, the constitution wins. Do not replace it with generic marketing, and do not soften a restriction to make a sentence sound stronger.
 
-Read `CORE_VALUES.md` before a public change. Keep every offer, proof, and separation in it. `SHOWCASE_LIBRARY.md` is the evidence file for skills and projects. The constitution wins if they disagree. Services stay first on the page.
+Read `docs/CORE_VALUES.md` before a public change. Keep every offer, proof, and separation in it. `docs/SHOWCASE_LIBRARY.md` is the evidence file for skills and projects. The constitution wins if they disagree. Services stay first on the page. Start at `START_HERE.md`.
 
 ## How to work
-Follow `COLLABORATION.md`. ChatGPT reviews strategy. Cursor does not start a new feature or a redesign until Ken approves the plan.
+Follow `docs/COLLABORATION.md`. ChatGPT reviews strategy. Cursor does not start a new feature or a redesign until Ken approves the plan.
 
-1. Inspect the real files. Read `CORE_VALUES.md` and `SHOWCASE_LIBRARY.md` before a public change.
+1. Inspect the real files. Read `docs/CORE_VALUES.md` and `docs/SHOWCASE_LIBRARY.md` before a public change.
 2. Every reply includes one short-line Markdown block Ken can read and copy to ChatGPT. The copy control is on that block. Do not answer in prose only.
 3. Implement only after Ken explicitly approves. Then check phone and desktop, and report what was verified.
 4. A price, a personal fact, or a promise about money, insurance, or results still waits for Ken.
