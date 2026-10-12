@@ -65,8 +65,8 @@ From the live page (`index.html` / `content/PAGE_COPY.md`):
 - Location shown: Calamba, Misamis Occidental
 - Email: kcardanio@gmail.com (subject: Professional Opportunities)
 - Phone: +63 948 854 8171
-- Education on the page: Cebu Institute of Technology – University. Management accounting. Dean’s Lister, 2008 and 2012.
-- 2024–now — Prints & Beyond. General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts.
+- Education on the page: Cebu Institute of Technology – University. Management accounting.
+- 2024–now — Prints & Beyond. I run a printing and souvenir business in Calamba as general manager, handling operations, school bulk orders, client accounts, and store maintenance, with in-house automation that speeds up production.
 - 2019–now — Life planner, AIA Philippines. Life planner since 2019. Licensed for OL and VUL. Profile link: https://coveredandcalm.vercel.app/profile (link text: AIA profile).
 - 2021–2023 — General manager, Bamboo Groove Restobar. Events, guest care, the whole house.
 - 2013–2019 — Books and audit. Collins International Trading, Prince Retail Group of Companies, Honda Motor World, Inc.
@@ -74,7 +74,6 @@ From the live page (`index.html` / `content/PAGE_COPY.md`):
 
 From the evidence file, only when the page needs backing (do not dump the library onto the page):
 
-- Dean's Lister, 2008 and 2012.
 - Prints & Beyond is a partnership in Calamba, Misamis Occidental. A partner finances the shop. Ken is GM and the only employee. Do not name the financing partner.
 - Shop services that exist: mug printing, general printing, T-shirt sublimation, ChromaLuxe products, ID production, school bulk orders, lanyards, lamination, PVC products, and media editing.
 - Life planning is an AIA Philippines agent practice since 2019 (OL & VUL), kept separate from software and the shop.

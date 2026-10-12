@@ -207,7 +207,7 @@ Present experience accurately and avoid duplicated employment entries.
 
 ### Education
 
-Cebu Institute of Technology – University. Management accounting. Dean's Lister, 2008 and 2012.
+Cebu Institute of Technology – University. Management accounting.
 
 Ken has worked since 2008 while taking night classes.
 
