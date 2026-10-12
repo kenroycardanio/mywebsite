@@ -35,7 +35,7 @@ I bring together business operations, analytical thinking, technology, and AI-as
 
 From improving workflows to developing applications and connecting systems, I focus on making work simpler, information more useful, and processes more effective.
 
-HUD: Capabilities 8 · Scoped offers 4 · Working since 2008 · Process Understand → Refine
+HUD: Years working 17+ · Built start to finish — Idea, design, build, launch · End-to-end — Business problem to working system · AI + automation — For everyday business workflows
 
 ## Work with me
 
