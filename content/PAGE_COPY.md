@@ -115,9 +115,9 @@ Understand the work, then build what fits.
 
 Accounting roots. Real operations.
 
-Cebu Institute of Technology – University. Management accounting. Dean’s Lister, 2008 and 2012.
+Cebu Institute of Technology – University. Management accounting.
 
-2024–now — Prints & Beyond. General manager of a partnership souvenir and printing shop in Calamba. Custom gifts, school print orders, and media editing for student projects and shop customers. Student jobs stay affordable. Larger jobs are priced before work starts. Services: mugs, printing, T-shirt sublimation, ChromaLuxe, IDs, school bulk, lanyards, lamination, PVC, media editing.
+2024–now — General manager, Prints & Beyond. Printing and souvenir business in Calamba. Operations, school bulk orders, client accounts, and store maintenance. In-house automation speeds up production.
 
 2019–now — Life planner, AIA Philippines. Life planner since 2019. Licensed for OL and VUL. AIA profile: https://coveredandcalm.vercel.app/profile
 
